@@ -7,7 +7,6 @@ soci[boost,postgresql]:
 rapidjson:
 fmt:
 spdlog:
-icu:
 boost-filesystem:
 boost-system:
 boost-thread:
