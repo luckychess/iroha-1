@@ -1,8 +1,8 @@
 diff --git a/scripts/toolchains/linux.cmake b/scripts/toolchains/linux.cmake
-index 68d90470..7508cd46 100644
+index d6173e86..cef081c9 100644
 --- a/scripts/toolchains/linux.cmake
 +++ b/scripts/toolchains/linux.cmake
-@@ -17,8 +17,8 @@ if(NOT _CMAKE_IN_TRY_COMPILE)
+@@ -19,8 +19,8 @@ if(NOT _CMAKE_IN_TRY_COMPILE)
      string(APPEND CMAKE_C_FLAGS_RELEASE_INIT " ${VCPKG_C_FLAGS_RELEASE} ")
      string(APPEND CMAKE_CXX_FLAGS_RELEASE_INIT " ${VCPKG_CXX_FLAGS_RELEASE} ")
  
